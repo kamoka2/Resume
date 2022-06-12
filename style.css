@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #006400;
+    background-color: rgb(240, 229, 250);
+    margin: auto;
+    max-width: 750px;
+}
+
+
+.card p{
+    color: rgb(141, 141, 141);
+}
+
+img{
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    display: flex;
+    height: 250px;
+    width: 250px;
+    margin-top: 45px;
+}
+
+.card{
+    border-left: 6px solid rebeccapurple;
+    border-right: 6px solid rebeccapurple;
+    border-radius: 6px;
+    opacity: 0.8;
+    padding: 0px 10px;
+    background-color: rgba(241, 212, 255, 0.753);
+    align-content: 'left';
+    width: 80%;
+    display: flex;
+}
+
+.container{
+    margin-top: 20px;
+    padding: 15px 20px;
+    max-width: 750px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a:hover{
+    color:rgb(255, 0, 47);
+    font-size: 25px;
+}
+
+.btn{
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.table tr th{
+    background: rgb(183, 124, 238);
+    color: #111;
+}
+
+.table tr td {
+    background: rgb(184, 153, 214);
+    color: #111;
+}
+
+
+.form h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.formon label {
+    display: block;
+    font-size: 14px;
+    color: #006400;
+}
+
+.formon input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: rgb(240, 240, 240);
+    border-bottom: 2px solid rgb(109, 108, 108);
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    padding: 15px 0px 10px;
+    outline: none;
+    border-radius: 5px;
+    padding: 0px 10px;
+    color: #111;
+}
+
+.hobby {
+    background-color: rgba(241, 212, 255, 0.753);
+    border-radius: 7px;
+    border-left: 6px solid rebeccapurple;
+    border-right: 6px solid rebeccapurple;
+    padding-left: 10px;
+}
+
+.textis{
+    padding: 15px;
+}
+
+.textis h2{
+    margin-left: 20%;
+}
+
+@media (max-width: 650px) {
+    .card{
+        display: block;
+        text-align: center;
+    }
+}
+
+.seti{
+    border-left: 6px solid rebeccapurple;
+    border-right: 6px solid rebeccapurple;
+    padding-left: 10px;
+    background-color: rgba(241, 212, 255, 0.753);
+    border-radius: 7px;
+}
+
+.svg, .table{
+    margin: auto;
+}
+
+.cmd{
+    font-size: 18px;
+}
